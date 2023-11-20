@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 4px;
+  padding: 0;
+}
+
+#main {
+  background-color: #3c5794;
+  border-radius: 10px 10px 0 0;
+  width: 96vw;
+  height: 100vh;
+}
+
+header h1 {
+  color: white;
+  font-size: 100px;
+  font-family: 'Bebas Neue', sans-serif;
+  margin-left: 30px;
+}
+
+nav { 
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+#post {
+  color: aliceblue;
+  height: 40px;
+  background-color: black;
+  border-radius: 10px 0 0 0;
+  width: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin-right: 0;
+}
+
+#post li {
+  display: flex;
+  
+}
+
+#post a {
+  color: white;
+  margin: 5px;
+}
+
+#comunidades {
+  height: 40px;
+  background-color: aliceblue;
+  border-radius: 0 0 0 0;
+  border: 1px solid black;
+  width: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#comunidades li {
+  display: flex;
+}
+
+#comunidades a {
+  color: black;
+  margin: 5px;
+}
+
+#registrate {
+  height: 40px;
+  background-color: aliceblue;
+  border-radius: 0 0 0 0;
+  border: 1px solid black;
+  width: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#registrate li {
+  display: flex;
+}
+
+#registrate a {
+  color: black;
+  margin: 5px;
+}
+
+#vacio {
+  height: 40px;
+  background-color: aliceblue;
+  border-radius: 0 0 0 0;
+  border: 1px solid black;
+  width: 750px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#identificarme {
+  height: 40px;
+  background-color: rgb(231, 172, 10);
+  border-radius: 0 10px 0 0;
+  border: 1px solid black;
+  width: 180px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin-left: 0;
+}
